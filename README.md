@@ -1,6 +1,7 @@
 <div align="center"><h1>📺 ربات تبدیل فایل ویدیو به لینک مستقیم دانلود و تماشای آنلاین</h1>
-<b>An open-source Python Telegram bot to transmit Telegram files over HTTP.</b>
-.
+
+  <b>یک ربات تلگرام منبع باز پایتون برای انتقال فایل های تلگرام از طریق HTTP.
+.</b>
 **1.Install Python & Git:**##
 
 For Windows:
@@ -82,6 +83,7 @@ docker run -p 8080:8080 file-stream-bot
 
 
 ## ❤️ Credits & Thanks
+
 
 
 
