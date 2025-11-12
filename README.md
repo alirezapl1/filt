@@ -30,13 +30,13 @@ pkg install git -y
 
 **2.Download repository:**
 ```
-git clone https://github.com/TheCaduceus/FileStreamBot.git
+git clone git@github.com:alirezapl1/filt.git
 ```
 
 **3.Change Directory:**
 
 ```
-cd FileStreamBot
+cd Files
 ```
 
 <a name="i-3"></a>
@@ -50,7 +50,6 @@ pip install -r requirements.txt
 <a name="variables"></a>
 
 ## 📝 Variables
-**The variables provided below should either be completed within the [config.py](https://github.com/TheCaduceus/FileStreamBot/blob/main/bot/config.py) file or configured as environment variables.**
 * `API_ID`|`TELEGRAM_API_ID`: API ID of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `int`
 * `API_HASH`|`TELEGRAM_API_HASH`: API hash of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `str`
 * `OWNER_ID`: ID of your Telegram account, can be obtained by sending **/info** to [@DrFileStreamBot](https://t.me/DrFileStreamBot). `int`
@@ -88,5 +87,5 @@ docker run -p 8080:8080 file-stream-bot
 
 ## ❤️ Credits & Thanks
 
-[**Dr.Caduceus**](https://github.com/TheCaduceus): Owner & developer of File Stream Bot.
+
 
