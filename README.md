@@ -97,7 +97,7 @@ docker build -t file2link .
 ```
 * Run the Docker container:
 ```
-docker run -p 8080:8080 file-stream-bot
+docker run -p 8080:8080 file2linlbot
 ```
 
 <a name="help"></a>
@@ -106,6 +106,7 @@ docker run -p 8080:8080 file-stream-bot
 - Ask questions or doubts [here](https://t.me/alpha365r).
 
 <a name="credits"></a>
+
 
 
 
