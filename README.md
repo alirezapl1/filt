@@ -1,12 +1,28 @@
 <div align="center"><h1>📺 ربات تبدیل فایل ویدیو به لینک مستقیم دانلود و تماشای آنلاین</h1>
+<b>An open-source Python Telegram bot to transmit Telegram files over HTTP.</b>
 
-  <b>یک ربات تلگرام منبع باز پایتون برای انتقال فایل های تلگرام از طریق HTTP.
-.</b>
+</div><br>
 
-## **⚙️ نصب**
+## **📑 نصب**
 
+* [**⚙️ Installation**](#installation)
+  * [Python & Git](#i-1)
+  * [Download](#i-2)
+  * [Requirements](#i-3)
+* [**📝 Variables**](#variables)
+* [**🕹 Deployment**](#deployment)
+  * [Locally](#d-1)
+  * [Docker](#d-2)
+* [**⛑️ Need help!**](#help)
+* [**❤️ Credits & Thanks**](#credits)
 
-**1.Install Python & Git:**##
+<a name="installation"></a>
+
+## ⚙️ Installation
+
+<a name="i-1"></a>
+
+**1.Install Python & Git:**
 
 For Windows:
 ```
@@ -31,13 +47,13 @@ pkg install git -y
 
 **2.Download repository:**
 ```
-git clone https://github.com/alirezapl1/filt.git
+git clone https://github.com/TheCaduceus/FileStreamBot.git
 ```
 
 **3.Change Directory:**
 
 ```
-cd filt
+cd FileStreamBot
 ```
 
 <a name="i-3"></a>
@@ -51,6 +67,7 @@ pip install -r requirements.txt
 <a name="variables"></a>
 
 ## 📝 Variables
+**The variables provided below should either be completed within the [config.py](https://github.com/TheCaduceus/FileStreamBot/blob/main/bot/config.py) file or configured as environment variables.**
 * `API_ID`|`TELEGRAM_API_ID`: API ID of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `int`
 * `API_HASH`|`TELEGRAM_API_HASH`: API hash of your Telegram account, can be obtained from [My Telegram](https://my.telegram.org). `str`
 * `OWNER_ID`: ID of your Telegram account, can be obtained by sending **/info** to [@DrFileStreamBot](https://t.me/DrFileStreamBot). `int`
@@ -85,16 +102,12 @@ docker build -t file-stream-bot .
 docker run -p 8080:8080 file-stream-bot
 ```
 
+<a name="help"></a>
 
-## ❤️ Credits & Thanks
+## ⛑️ Need help!
+- Ask questions or doubts [here](https://t.me/alpha365r).
 
-
-
-
-
-
-
-
+<a name="credits"></a>
 
 
 
