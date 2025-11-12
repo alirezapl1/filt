@@ -3,8 +3,8 @@
   <b>یک ربات تلگرام منبع باز پایتون برای انتقال فایل های تلگرام از طریق HTTP.
 .</b>
 
+## **⚙️ لصب**
 
-* [**⚙️ نصب**](#installation)
 
 **1.Install Python & Git:**##
 
@@ -87,6 +87,7 @@ docker run -p 8080:8080 file-stream-bot
 
 
 ## ❤️ Credits & Thanks
+
 
 
 
