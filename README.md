@@ -93,7 +93,7 @@ python3 -m bot
 **2.Using Docker:** *(Recommended)*
 * Build own Docker image:
 ```
-docker build -t file-stream-bot .
+docker build -t file2link .
 ```
 * Run the Docker container:
 ```
@@ -106,6 +106,7 @@ docker run -p 8080:8080 file-stream-bot
 - Ask questions or doubts [here](https://t.me/alpha365r).
 
 <a name="credits"></a>
+
 
 
 
