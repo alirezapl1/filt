@@ -1,28 +1,10 @@
-<div align="center"><h1>🌐File Stream Bot</h1>
-<b>An open-source Python Telegram bot to transmit Telegram files over HTTP.</b>
+ربات تولید فایل به لینک تلگرام
+یک ربات تلگرام که می‌تواند فایل‌های تلگرام را از طریق HTTP برای کاربران پخش کند.
 
-<a href="https://t.me/DrFileStreamBot"><b>Demo Bot</b></a>
-</div><br>
+راه‌اندازی
+نصب وابستگی‌ها (به requirements.txt مراجعه کنید)، پیکربندی متغیرهای محیطی (به زیر مراجعه کنید) و اجرا با python3 -m tgfilestream.
 
-## **📑 INDEX**
-
-* [**⚙️ Installation**](#installation)
-  * [Python & Git](#i-1)
-  * [Download](#i-2)
-  * [Requirements](#i-3)
-* [**📝 Variables**](#variables)
-* [**🕹 Deployment**](#deployment)
-  * [Locally](#d-1)
-  * [Docker](#d-2)
-* [**⛑️ Need help!**](#help)
-* [**❤️ Credits & Thanks**](#credits)
-
-<a name="installation"></a>
-
-## ⚙️ Installation
-
-<a name="i-1"></a>
-
+یک پروکسی معکوس برای اضافه کردن TLS توصیه می‌شود. هنگام استفاده از پروکسی معکوس، HOST را به همان صورت نگه دارید، اما URL قابل دسترسی عمومی را به PUBLIC_URL اضافه کنید. URL باید شامل پروتکل باشد، مثلاً https://example.com.
 **1.Install Python & Git:**
 
 For Windows:
@@ -103,13 +85,8 @@ docker build -t file-stream-bot .
 docker run -p 8080:8080 file-stream-bot
 ```
 
-<a name="help"></a>
-
-## ⛑️ Need help!
-- Ask questions or doubts [here](https://t.me/DrDiscussion).
-
-<a name="credits"></a>
 
 ## ❤️ Credits & Thanks
 
 [**Dr.Caduceus**](https://github.com/TheCaduceus): Owner & developer of File Stream Bot.
+
